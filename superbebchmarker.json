@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/aliostad/SuperBenchmarker",
+    "license": "MIT License",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aliostad/SuperBenchmarker/tree/master/download"
+        }
+    },
+    "bin": "sb.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aliostad/SuperBenchmarker/tree/master/download"
+            }
+        }
+    }
+}
