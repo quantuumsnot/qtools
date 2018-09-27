@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/tsenart/vegeta/releases/download/cli%2Fv11.3.0/vegeta-11.3.0-windows-amd64.zip"
+                "https://github.com/tsenart/vegeta/releases/download/cli%2Fv$version/vegeta-$version-windows-amd64.zip"
             ],
             "hash": [
                 "041e17e5fbe506dc8e652e5de7e5c1b4e4bf9910078ba1c35cf74c40d7483f78"
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tsenart/vegeta/releases/download/cli%2Fv11.3.0/vegeta-$version-windows-amd64.zip"
+                "url": "https://github.com/tsenart/vegeta/releases/download/cli%2Fv$version/vegeta-$version-windows-amd64.zip"
             }
         }
     }
