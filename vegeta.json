@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/tsenart/vegeta",
+    "homepage": "https://github.com/tsenart/vegeta/releases/latest",
     "license": "MIT License",
     "version": "11.3.0",
     "architecture": {
@@ -13,7 +13,7 @@
         }
     },
     "bin": "vegeta.exe",
-    "checkver": "<title>Vegeta HTTP load testing tool ([\\d.]+) for Windows",
+    "checkver": "<title>Release ([\\d.]+) · tsenart/vegeta",
     "autoupdate": {
         "architecture": {
             "64bit": {
