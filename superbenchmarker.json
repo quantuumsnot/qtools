@@ -1,6 +1,7 @@
 {
     "homepage": "https://github.com/aliostad/SuperBenchmarker",
-    "license": "MIT License",
+    "license": "MIT",
+    "description": "Apache Benchmark (ab.exe) on steroids",
     "architecture": {
         "64bit": {
             "url": "https://github.com/aliostad/SuperBenchmarker/tree/master/download"
