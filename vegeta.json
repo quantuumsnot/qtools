@@ -1,24 +1,26 @@
 {
-    "homepage": "https://github.com/tsenart/vegeta/releases/latest",
-    "license": "MIT License",
     "version": "12.0.0",
+    "homepage": "https://github.com/tsenart/vegeta/",
+    "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": [
-                "https://github.com/tsenart/vegeta/releases/download/cli%2Fv$version/vegeta-$version-windows-amd64.zip"
-            ],
-            "hash": [
-                "041e17e5fbe506dc8e652e5de7e5c1b4e4bf9910078ba1c35cf74c40d7483f78"
-            ]
+            "url": "https://github.com/tsenart/vegeta/releases/download/cli%2Fv12.0.0/vegeta-12.0.0-windows-amd64.zip",
+            "hash": "b425ae4021e0fa47167dae1792def5c0aa0aaedb697deda07b6b20429eb6736b"
         }
     },
     "bin": "vegeta.exe",
-    "checkver": "<title>Release ([\\d.]+) · tsenart/vegeta</title>",
+    "checkver": {
+        "github": "https://github.com/tsenart/vegeta/",
+        "regex": "v([\\d\\.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/tsenart/vegeta/releases/download/cli%2Fv$version/vegeta-$version-windows-amd64.zip"
             }
+        },
+        "hash": {
+            "url": "https://github.com/tsenart/vegeta/releases/download/cli%2Fv$version/vegeta-checksums.txt"
         }
     }
 }
