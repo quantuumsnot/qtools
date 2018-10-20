@@ -3,7 +3,7 @@
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/aliostad/SuperBenchmarker/blob/master/LICENSE.txt"
-    }
+    },
     "description": "Apache Benchmark (ab.exe) on steroids",
     "architecture": {
         "64bit": {
