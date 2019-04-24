@@ -1,7 +1,11 @@
 {
     "version": "12.0.0",
+    "description": "HTTP load testing tool and library.",
     "homepage": "https://github.com/tsenart/vegeta/",
-    "license": "MIT",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/tsenart/vegeta/blob/master/LICENSE"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/tsenart/vegeta/releases/download/cli%2Fv12.0.0/vegeta-12.0.0-windows-amd64.zip",
@@ -11,7 +15,7 @@
     "bin": "vegeta.exe",
     "checkver": {
         "github": "https://github.com/tsenart/vegeta/",
-        "regex": "v([\\d\\.]+)"
+        "regex": ">v([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
