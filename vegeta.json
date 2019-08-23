@@ -1,5 +1,5 @@
 {
-    "version": "12.3.0",
+    "version": "12.7.0",
     "description": "HTTP load testing tool and library.",
     "homepage": "https://github.com/tsenart/vegeta/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tsenart/vegeta/releases/download/cli%2Fv12.3.0/vegeta-12.3.0-windows-amd64.zip",
-            "hash": "bf8383e58d47a319dad0d8111e966df4ebbf5dd7e22300ae8683f36f19eb98bd"
+            "url": "https://github.com/tsenart/vegeta/releases/download/v$version/vegeta-$version-windows-amd64.zip",
+            "hash": "121f8a9b07234c39ee7119af4acdd8bf88e0ff06ea4f4122dcdffb8675fae35b"
         }
     },
     "bin": "vegeta.exe",
@@ -20,11 +20,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tsenart/vegeta/releases/download/cli%2Fv$version/vegeta-$version-windows-amd64.zip"
+                "url": "https://github.com/tsenart/vegeta/releases/download/v$version/vegeta-$version-windows-amd64.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/tsenart/vegeta/releases/download/cli%2Fv$version/vegeta-checksums.txt"
+            "url": "https://github.com/tsenart/vegeta/releases/download/v$version/vegeta-checksums.txt"
         }
     }
 }
